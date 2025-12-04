@@ -1,0 +1,112 @@
+
+body {
+	background-color: #ad7753;
+	display: flex;
+	justify-content: center;
+}
+
+h2 {
+	color: darkred;
+	font-size: 60px;
+	letter-spacing: -2px;
+}
+
+.header {
+	position: sticky;
+	top: 0;
+	background: #f5ebbe;
+	color: #a71829;
+	height: 20px;
+	z-index: 3;
+	width: 100%;
+	font-family: "bomboniere", sans-serif;
+	font-weight: 500;
+}
+
+a {
+	font-family: "bomboniere", sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	color: #a71829;
+	text-align: justify-content;
+	text-decoration: none;
+}
+
+div {
+	background-color: transparent;
+	color: #f5ebbe;
+	font-size: 25px;
+	font-family: "bomboniere", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-indent: px;
+	text-align: justify;
+	word-spacing: -2px;
+	font-weight: thin;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	width: 75%;
+}
+
+.container {
+	width: 75%;
+	background-color: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	padding: 10px;
+	border: solid 2px;
+	margin: 20px;
+	justify-content: center;
+}
+
+.front,
+.back {
+	position: relative;
+ 	width: 500px;
+ 	height: 500px;
+ 	border-radius: 20px;
+ 	backface-visibility: hidden;
+ 	overflow: hidden;
+}
+
+.front::before {
+	position: relative;
+}
+
+
+}
+
+#one {
+	width: 500px;
+}
+
+#two {
+	width: 500px;
+}
+
+.liquorbox {
+	width: 25ch;
+}
+
+#para1 {
+	background-color: ;
+	font-size: 16px;
+	font-weight: 400;
+	position: absolute;
+	top: 400px;
+	left: 120px;
+	z-index: 5;
+	width: 22ch;
+}
+
+.paragraphs {
+	position: relative;
+	height: 800px;
+	width: 25ch;
+	text-align: center;
+}
+
+
+
